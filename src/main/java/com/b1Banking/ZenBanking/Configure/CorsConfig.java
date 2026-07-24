@@ -15,7 +15,8 @@ public class CorsConfig implements WebMvcConfigurer {
                 .allowedOrigins(
                     "http://localhost:3000",
                     "https://devbank.web.app",
-                    "https://devbank.firebaseapp.com"
+                    "https://devbank.firebaseapp.com",
+                    "https://devbank-frontend.vercel.app"
                 )
                 .allowedMethods("*")
                 .allowedHeaders("*");
