@@ -525,7 +525,7 @@ public String transferMoney(
             "₹" + amount + " transferred successfully to A/c " +
             to.getAccountNo() + ".\n\n" +
             "Available Balance: ₹" + from.getBalance() +
-            "\n\n- ZenBank"
+            "\n\n- DevBank"
     );
 
     emailService.sendMail(
